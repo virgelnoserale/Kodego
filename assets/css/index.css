@@ -15,6 +15,7 @@
 
         a:link {
             color: white;
+            text-decoration: none;
            
         }
     
@@ -23,9 +24,9 @@
         }
     
         a:hover {
-            color: white ;
-            background-color: black;
-           ;
+            color: black ;
+            background-color: white;
+                       ;
             
         }
     
