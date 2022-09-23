@@ -5,76 +5,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <title>HOME</title>
+
     <style>
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: yellowgreen;
+            background-color: white;
+            background-image: url(assets/img/h2bg.jpg);
+            font-weight: bold;
+        }
+
         .main_content {
             max-width: 100%;
-            background-image: url(assets/img/indexbg.jpg);
+            background-image: url(assets/img/indexbg1.jpg);
             border-color: aliceblue;
             border-bottom: 80%;
             border-top-left-radius: 80px;
-            border-bottom-right-radius: 80px; 
+            border-bottom-right-radius: 80px;
             width: 70%;
             margin: auto;
             height: 750px;
         }
-        #div1 {
-            float: left;
+
+        hr {
+            width: 100%;
         }
-        #div2 {
-            float: left;
+
+        ul {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 25px;
         }
-        
+
+        li {
+            color: yellowgreen;
+            padding-left: 10px;
+        }
+
+        #div1,
+        #div2,
+        #div3,
+        #div4 {
+            /* div */
+            float: left;
+            width: 22%;
+            height: 500px;
+            background-image: url(assets/img/divbg.jpg);
+            border-bottom-right-radius: 80px;
+            margin-left: 15px;
+        }
+
         h2 {
-            padding-left: 25px;
+            /*  HTML WITH CSS */
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellowgreen;
+            border-bottom-right-radius: 80px;
+            background-image: url(assets/img/h2bg.jpg);
+            padding-left: 15px;
+            margin-left: 20px;
+            width: 80%;
         }
 
-        #myname {
-            text-align: center;
-            color: azure;
-            padding: 50px;
-            background-image: url(assets/img/bgimg.jpg);
-            border-color:rgb(255, 255, 255);
+        #h1_my_name {
+            /* h1 VIRGEL NOSERALE - KODEGO STUDENT-BATCH WD19P */
+            text-align: justify;
+            color: yellowgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 30px;
+            background-image: url(assets/img/namebg.jpg);
+            border-color: rgb(255, 255, 255);
             border-top-left-radius: 80px;
-            border-bottom-right-radius: 80px; 
+            border-bottom-right-radius: 80px;
         }
 
+        #h1_my_exer {
+            /* h1 exercise */
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            color: yellowgreen;
+        }
 
+        section {
+            padding: 5%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 30%;
+        }
     </style>
-    <title>HOME</title>
 </head>
 
 <body>
     <main class="main_content">
-        <div>
-            <h1 id="myname">VIRGEL NOSERALE PORTFOLIO</h1>
-        </div>
-        <h1 style=" font-family: Arial, Helvetica, sans-serif; color:brown;">&nbsp; MY EXERCISES</h1>
-        <hr>
+        <h1 id="h1_my_name">VIRGEL NOSERALE - KODEGO STUDENT-BATCH WD19P</h1>
+        <h1 id="h1_my_exer">MY EXERCISES</h1>
         <div id="div1">
             <h2>HTML</h2>
-            <ul style="height: 390px;">
-                <li><a href="exer_1.html"> Exercise 1: Paragrahps and comments.</a></li>
-                <li><a href="exer_2.html"> Exercise 2: Lines and breaks.</a></li>
-                <li><a href="exer_3.html"> Exercise 3: Text formatting.</a></li>
-                <li><a href="exer_4.html"> Exercise 4: Pre and code tags.</a></li>
-                <li><a href="exer_5.html"> Exercise 5: Resume HTML page.</a></li>
-                <li><a href="exer_6.html"> Exercise 6: Media page.</a></li>
-                <li><a href="exer_7.html"> Exercise 7: Table page.</a></li>
-                <li><a href="exer_8.html"> Exercise 8: Iframe page.</a></li>
-                <li><a href="exer_9.html"> Exercise 9: Form.</a></li>
+            <ul>
+                <li><a href="exer_1.html"> Exercise 1: Paragraph & comments</a></li>
+                <li><a href="exer_2.html"> Exercise 2: Lines & breaks</a></li>
+                <li><a href="exer_3.html"> Exercise 3: Text formatting</a></li>
+                <li><a href="exer_4.html"> Exercise 4: Pre & code tags</a></li>
+                <li><a href="exer_5.html"> Exercise 5: Resume HTML page</a></li>
+                <li><a href="exer_6.html"> Exercise 6: Media</a></li>
+                <li><a href="exer_7.html"> Exercise 7: Table</a></li>
+                <li><a href="exer_8.html"> Exercise 8: Iframe</a></li>
+                <li><a href="exer_9.html"> Exercise 9: Form</a></li>
             </ul>
         </div>
-        <div  id="div2" >
+        <div id="div2">
             <h2>WITH CSS</h2>
-
-                    <ul>
-                        <li><a href="css_exercise1.html"> Exercise 10: Basic CSS 1  </a></li>
+            <ul>
+                <li><a href="css_exercise1.html"> Exercise 10: Basic CSS 1 </a></li>
+                <li><a href="#"> Exercise 11: Basic CSS 2 </a></li>
+                <li><a href="#"> Exercise 12: Basic CSS 3 </a></li>
+                <li><a href="#"> Exercise 13: Basic CSS 4 </a></li>
+                <li><a href="#"> Exercise 14: Basic CSS 5 </a></li>
+                <li><a href="#"> Exercise 15: Basic CSS 7 </a></li>
 
             </ul>
         </div>
-         
-                
+        <div id="div3">
+            <h2>MYTUBE</h2>
+            <section>
+                <iframe width="1025" height="683" src="https://www.youtube.com/embed/FDHtZwRxXpk"
+                    title="My first try in FILMORA 9   ...." frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <iframe width="1214" height="683" src="https://www.youtube.com/embed/qLTBg6FQlMA"
+                    title="Weezer   Lost in the woods (Frozen II) Lyrics" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+        </div>
+        <div id="div4">
+            <h2>LIVE NEWS</h2>
+            <section>
+                <iframe width="1214" height="683" src="https://www.youtube.com/embed/F-POY4Q0QSI"
+                    title="🔴 Al Jazeera English | Live" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <iframe width="1214" height="683" src="https://www.youtube.com/embed/vOTiJkg1voo"
+                    title="Watch ABC News Australia live | ABC News" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+
+        </div>
     </main>
 </body>
 
