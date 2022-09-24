@@ -34,7 +34,7 @@
             border-bottom-right-radius: 80px;
             width: 70%;
             margin: auto;
-            height: 750px;
+            height: 850px;
         }
 
         hr {
@@ -42,8 +42,8 @@
         }
 
         ul {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 13px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
             line-height: 25px;
         }
 
@@ -63,6 +63,12 @@
             background-image: url(assets/img/divbg.jpg);
             border-bottom-right-radius: 80px;
             margin-left: 15px;
+        }
+
+        #sec_icon {
+            padding-top: 520px;
+            padding-left: 15px;
+            bottom: -15px;            
         }
 
         h2 {
@@ -102,25 +108,20 @@
         #google {
             width: 25px;
             height: 25px;
-            position: relative;
-            top: -110px;
-            right: -97%;
+            padding: 2px;
+            margin: none;
         }
 
         #fb {
             width: 25px;
             height: 25px;
-            position: relative;
-            top: -110px;
-            right: -92%;
+            padding: 2px;
         }
 
         #kodego {
             width: 25px;
             height: 25px;
-            position: relative;
-            top: -110px;
-            right: -87%;
+            padding: 2px;
         }
         
         iframe {
@@ -128,9 +129,20 @@
             height: 30%;
         }
 
-/*        .koboo {
-            position:sticky;
-        } */
+       #sec_bootcamp {
+            color: azure;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 11px;
+            padding-left: 10px;
+            margin-top: -5%;
+        } 
+
+        #imgkode {
+            
+            position: relative;
+            width: 20px;
+            height: 20px;
+        }
     </style>
 </head>
 
@@ -138,10 +150,6 @@
     <main class="main_content">
         <div>
             <h1 id="h1_my_name">VIRGEL NOSERALE | BATCH WD19P</h1>
-            <a href="https://www.google.com"><img src="assets/img/google.png" id="google"></a>
-            <a href="https://www.facebook.com"><img src="assets/img/fbpix.png" id="fb"></a>
-            <a href="https://kodego.ph/"><img src="assets/img/kodego.png" id="kodego"></a>
-            
         </div>
         <h1 id="h1_my_exer">MY EXERCISES</h1>
         <div id="div1">
@@ -161,12 +169,12 @@
         <div id="div2">
             <h2>WITH CSS</h2>
             <ul>
-                <li><a href="css_exercise1.html"> Exercise 10: Basic CSS 1 </a></li>
-                <li><a href="#"> Exercise 11: Basic CSS 2 </a></li>
-                <li><a href="#"> Exercise 12: ------ </a></li>
-                <li><a href="#"> Exercise 13: ------ </a></li>
-                <li><a href="#"> Exercise 14: ------ </a></li>
-                <li><a href="#"> Exercise 15: ------ </a></li>
+                <li><a href="exer_10.html"> Exercise 10: Basic CSS</a></li>
+                <li><a href="#"> Exercise 11: ------</a></li>
+                <li><a href="#"> Exercise 12: ------</a></li>
+                <li><a href="#"> Exercise 13: ------</a></li>
+                <li><a href="#"> Exercise 14: ------</a></li>
+                <li><a href="#"> Exercise 15: ------</a></li>
 
             </ul>
         </div>
@@ -198,14 +206,18 @@
                     allowfullscreen></iframe>
             </section>
         </div>
-        
-        <!--<div>
-            
-            <section>
-                <p id="kboot">This is brought to you by KodeGo Bootcamp.. </p>
+        <div>
+            <section id="sec_icon">
+                <a href="https://www.google.com"><img src="assets/img/google.png" id="google"></a>
+                <a href="https://www.facebook.com"><img src="assets/img/fbpix.png" id="fb"></a>
+                <a href="https://kodego.ph/"><img src="assets/img/kodego.png" id="kodego"></a>
             </section>
-        </div> -->
-
+        </div>
+        <div>
+            <section id="sec_bootcamp">
+                <p>This is brought to you by <img src="assets/img/kodego.png" id="imgkode"> Bootcamp.. 2022 </p>
+            </section>
+        </div>
     </main>
 </body>
 

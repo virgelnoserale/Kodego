@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercise 10: Basic CSS</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+		body {
+			background-color: grey;
+		}
+
+		main {
+			background-image: url(assets/img/bgimg.jpg);
+			border: 1px solid;
+			margin: 10%;
+			margin-top: auto;
+			margin-bottom: auto;
+			border-top-left-radius: none;
+			border-top-right-radius: none;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			border-color: black;
+		}
+
+		h1 {
+			text-align: center;
+			color: greenyellow;
+			font-family: Arial, Helvetica, sans-serif;
+			border: 1px solid;
+			border-width: 40px;
+			border-top-left-radius: none;
+			border-top-right-radius: none;
+			border-bottom-left-radius: none;
+			border-bottom-right-radius: none;
+			border-color: greenyellow;
+			margin-top: 0%;
+			border-image: url(assets/img/subngimg.jpg);
+			border-image-width: 100%;
+		}
+
+		h2 {
+			text-align: center;
+			font-family: Oswald;
+			letter-spacing: 3px;
+			color: whitesmoke;
+			border: 1px solid;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-left-radius: none;
+			border-bottom-right-radius: none;
+			background-position: 50%;
+			border-color: rgb(102, 97, 97);
+			background-color: rgb(102, 97, 97);
+			margin-top: 0%;
+			margin-left: 0%;
+			margin-right: 0%;
+		}
+
+		h3 {
+			text-align: center;
+			color: yellow;
+		}
+
+		article {
+			text-align: justify;
+			color: rgb(135, 211, 13);
+			font-family: Arial, Helvetica, sans-serif;
+			border: 1px solid;
+			border-radius: 10px;
+			background-position: 50%;
+			border-color: rgb(102, 97, 97);
+			background-image: url(assets/img/headbgimg.png);
+			margin-top: none;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-bottom: 3%;
+		}
+
+		.par {
+			margin-right: 15px;
+			margin-left: 15px;
+			margin-bottom: 15px;
+		}
+
+		span {
+
+			color: rgb(219, 211, 216);
+			font-style: italic;
+			text-decoration:underline;
+		}
+		#img {
+			border-radius: 10px;
+			display: block;
+			width: 35%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		a:link {
+			color:hotpink;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color:hotpink;
+		}
+
+		a:hover {
+			color: white;
+			background-color: rgb(2, 85, 27);
+		}
+		
+	</style>
+
+</head>
+
+<body>
+	<main>
+		<h1>The Complete Guide To CSS Selectors</h1>
+		<article>
+			<h2>Learning CSS3 selectors - "The basics" </h2>
+			<div>
+				<img src="assets/img/learn-css1.jpg" alt="" id="img">
+			</div>
+			<p class="par">
+				To apply <strong>CSS</strong> to an element you need to select it. <strong>CSS</strong> provides you with a number of different ways to do
+				this, and you can explore them in this module.
+				<br>
+				All HTML tags have styles associated with them.
+				<br>
+			</p>
+			<p class="par">
+				Using a class selector gives you the ability to setup an independent style that you can then apply to
+				any HTML Tag.
+				<br>
+				Unlike an HTML selector, which automatically targets a specific tag, a class is given a unique name that
+				is then specified using the sytle attribute in the HTML tag or tags you want to use it in.
+				<br>For example:
+				<br>
+				<span>
+					<span>p.authorName</span>
+
+					<span>{</span>
+					<span>font-size: 1em;</span>
+					<span>}</span>
+				</span>
+			</p>
+
+			<section class="section">
+				<h3>To define an HTML selector:</h3>
+				<p class="par">
+					Start with the HTML selector whose properties yiou want to define. Add a curly bracket to open your
+					rule. Make sure you always close your declaration list with a curly bracket.
+				</p>
+
+			</section>
+
+			<section class="section">
+				<h3>To define a class selector:</h3>
+
+				<p class="par">
+
+					Type a period (.) and a class name, then open and close your decalration block with curly brackets.
+
+				
+				<a href="#"> read more</a>
+				</p>
+			</section>
+
+		</article>
+		<article>
+			<h2>Learning CSS3 selectors - "Attribute Selectors"</h2>
+			<p class="par">
+				You can look for elements that have a certain HTML attribute, or have a certain value for an HTML
+				attribute, using the attribute selector.
+				<br>
+				Instruct <strong>CSS</strong> to look for attributes by wrapping the selector with square brackets
+				(<span>[ ]</span>).
+
+				<br>
+				<span>
+					<span>[ data-type='primary' ]</span>{
+					<span>color: blue;
+					</span>}
+				</span>
+				<br>
+				This <strong>CSS</strong> looks for all elements that have an attribute of data-type with a value of primary, like this:
+				<br>
+				&lt;div data-type="primary"&gt; &lt;/div&gt;
+			</p>
+
+
+		</article>
+
+		<article>
+			<h2>Learning CSS3 selectors - "Action PseudoClass Selectors"</h2>
+			<p class="par">
+				HTML elements find themselves in various states, either because they are interacted with, or one of
+				their child elements is in a certain state.
+			</p>
+			<p class="par">
+				For example, an HTML element could be hovered with the mouse pointer by a user or a child element could
+				also be hovered by the user. For those situations, use the
+				<span>:hover</span>
+				pseudo-class.
+
+				<a href="#">read more</a>
+
+			</p>
+			
+			<h3>
+				Pseudo-element #
+			</h3>
+			<p class="par">
+			Pseudo-elements differ from pseudo-classes because instead of responding to the platform state, they act as
+			if they are inserting a new element with CSS. Pseudo-elements are also syntactically different from
+			pseudo-classes, because instead of using a single colon (<span>:</span>), we use a double colon
+			(<span>::</span>)
+
+			<a href="#">read more</a>
+
+			</p>
+		</article>
+		<article>
+			<h2>Learning CSS3 selectors - "Combinators Selectors"</h2>
+
+			<p class="par">
+				A combinator is what sits between two selectors. For example, if the selector was p > strong, the
+				combinator is the > character. The selectors which use these combinators help you select items based on
+				their position in the document.
+
+				<a href="#">read more</a>
+			</p>
+			
+			<h3>Descendant combinator #</h3>
+			<p class="par">
+				To understand descendant combinators, you need to first understand parent and child elements.
+
+			</p>
+			<p class="par">
+				&lt;p&gt;A paragraph of text with some &lt;/strong&gt; bold text for emphasis&lt;/strong&gt;.&lt;/p&gt;
+			</p>
+			<p class="par">
+				The parent element is the &lt;p&gt; which contains text. Inside that &lt;p&gt; element is a
+				&lt;strong&gt; element, making its content bold. Because it is inside the &lt;p&gt;, it is a child
+				element.
+				<a href="#">read more</a>
+				<br>
+				<br>
+				<a href="index.html" id="back">&lt;&lt; &nbsp; back to main</a>
+			</p>
+		</article>
+	</main>
+
+</body>
+
+</html>
