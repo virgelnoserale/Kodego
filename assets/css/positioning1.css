@@ -1,0 +1,93 @@
+.wrapper {
+    color: green;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#link_enroll {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: hotpink;
+    border: 1px black solid;
+    color: white;         
+    padding: 10px 10px 10px 10px;
+}
+
+.right-side-div {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 20%;
+    height: 1000px;
+    border-left: 1px black solid;
+    padding-left: 5px;
+    margin-right: 10%;
+    margin-left: none;
+}
+
+.img_right {
+    width: 100%;
+}
+
+.left-side-div {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 55%;
+    height: 950px;
+    border: 1px lightgray solid;
+    margin: 5px;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-left:10%;
+    margin-right: none;
+}
+
+.img_left {
+    width: 40%;
+}
+
+.promo {
+    clear: both;
+}
+
+.alert {
+    width: 55%;
+  
+}
+#alert_up {
+    position: relative;
+    left: 95%;
+    bottom: 840px;
+}
+
+#alert_down {
+   position: absolute;
+   left: 62%;
+   bottom: -145px;
+}
+
+.btn_new {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: brown;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;         
+    padding: 5px 5px 5px 5px;            
+}
+
+.promo {
+    position: fixed;
+    margin: 10%;
+    bottom: -20%;
+
+}
+
+#btn_promo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: red;
+    border: 1px solid;
+    color: white;         
+    padding: 20px 200px 20px 200px; 
+}
