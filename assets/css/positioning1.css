@@ -79,8 +79,7 @@
 .promo {
     position: fixed;
     margin: 10%;
-    bottom: -20%;
-
+    top: 700px;
 }
 
 #btn_promo {
