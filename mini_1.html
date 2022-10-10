@@ -1,36 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-color: gray;
-        }
-        
-        .img-mini {
-
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            padding: auto;
-            box-shadow: 0px 0px 1px 3px rgba(19, 78, 2, 22) ;
-
-        }
-          
-            
-
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOUTHWIND MEDICAL HOSPITAL - Virgel Noserale Mini project 1</title>
+  <script src="https://kit.fontawesome.com/4b6fba0227.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/mini1home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-    <main>
-        <div>
-            <img class="img-mini" src="./assets/img/mini1/layout1.jpg" alt="">
+  <main>
+    <div class="container-fluid" id="header-container">      <!--Header-->
+      <div class="row">
+        <div class="col-6 p-3">
+          <img src="./assets/img/mini1/logohosp.png" id="img-logo" alt="">    <!--logo-->
         </div>
-</main>
-<a href="index.html">&lt;&lt; Back </a>
+        <div class="col-6 p-3">
+          <img src="./assets/img/mini1/callUs.png" id="img-callus" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">   <!--nav-->
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="fa-solid fa-hospital"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i>&nbsp;Mission-Vision</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-people-arrows"></i>&nbsp;Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-user-doctor"></i>&nbsp;Our Doctors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i>&nbsp;Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-user"></i>&nbsp;Login to patient account</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-2">        <!--slide-->
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="./assets/img/mini1/0a1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>SOUTHWIND MEDICAL HOSPITAL</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/mini1/1a1.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/img/mini1/2a1.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/mini1/3a1.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="giveus">       <!--Find a Doctor-->
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-10">
+          <h5>Find a Doctor</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="giveus">     <!--searchnameofdoctor-->
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-3">
+          <div class="input-group input-group-sm mb-3">
+            <input type="text" class="form-control" aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm" placeholder=" Name of Doctor">
+          </div>
+        </div>
+        <div class="col-4">
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Specialization</option>
+            <option value="1">Allergy and immunology</option>
+            <option value="2">Anesthesiology</option>
+            <option value="3">Dermatology</option>
+            <option value="1">Diagnostic radiology</option>
+            <option value="2">Emergency medicine</option>
+            <option value="3">Family medicine</option>
+            <option value="1">Internal medicine</option>
+            <option value="2">Medical genetics</option>
+            <option value="3">Obstetrics and gynecology</option>
+            <option value="1">Pediatrics</option>
+            <option value="2">Physical medicine and rehabilitation</option>
+            <option value="3">Surgery</option>
+          </select>
+        </div>
+        <div class="col-1">
+          <button type="button" class="btn btn-primary">Search</button>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+    <div class="container">    <!--News Content-->
+      <div>
+        <h2 class="title-news"> What's New...</h2>      <!--title of News-->
+        <section class="container-flex">
+          <div class="div-news-content"><a href="#"><img src="./assets/img/mini1/covid.png" class="img-news-content" alt="">
+            <h4>Coronavirus disease (COVID-19).</h4> </a>
+            <p>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people
+              infected
+              with the virus will experience mild to moderate respiratory illness and recover without requiring special
+              treatment. However, some will become seriously ill and require medical attention. Older people and those
+              with
+              underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer
+              are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or
+              die
+              at any age. https://www.who.int/health-topics/coronavirus#tab=tab_1 <a href="#">read more..</a></p>
+          </div>
+          <div class="div-news-content"><a href="#"><img src="./assets/img/mini1/diabetes.png" class="img-news-content" alt="">
+            <h4>Causes of Diabetes.</h4> </a>
+            <p>Diabetes causes vary depending on your genetic makeup, family history, ethnicity, health and environmental
+              factors. There is no common diabetes cause that fits every type of diabetes as the causes of diabetes vary
+              depending on the individual and the type. For instance; the causes of type 1 diabetes vary considerably from
+              the causes of gestational diabetes. Similarly, the causes of type 2 diabetes are distinct from the causes of
+              type 1 diabetes. In fact, type 1 diabetes and type 2 diabetes causes are very different. Type 1 diabetes is
+              an autoimmune condition where the pancreas cannot produce insulin, whereas type 2 diabetes is the body’s
+              resistance to insulin. https://www.diabetes.co.uk/diabetes-causes.html <a href="#">read more..</a></p>
+          </div>
+          <div class="div-news-content"> <a href="#"><img src="./assets/img/mini1/monkeyfox.png" class="img-news-content" alt="">
+            <h4>Why is the disease called monkeypox?</h4> </a>
+            <p>It was first detected in the 1950s in a monkey that was in captivity as a pox-like disease, which is
+              characterized by a pustular rash, a rash with pus. So, it was similar to smallpox, a disease known in humans
+              for generations, ever since antiquity. When they saw that it differed somewhat from the traditional pox,
+              they called it monkeypox. But it probably originated in rodents and spread to monkeys and occasionally
+              humans. https://news.lau.edu.lb/2022/-what-do-we-know-about-monkeypox.php <a href="#">read more..</a></p>
+          </div>
+        </section>
+      </div>
+    </div>    <!--End News Content-->
+ <hr>
+<br>
+    <div class="container footer-flex text-light">   <!--footer here-->
+      <div class="container"></div>
+      <div>
+        <section class="container-footer-flex">
+          <div class="div-footer"><img src="./assets/img/mini1/logohosp.png"  id="img-logo-footer" alt="">
+            <div class="div-footer">
+              <div> 
+                  <a href="#">
+                  <img src="./assets/img/mini1/fb.png" class="img-logo-social" alt=""> 
+                  </a>
+                  <a href="#">
+                  <img src="./assets/img/mini1/tweeter.png" class="img-logo-social" alt="">  
+                  </a>
+                  <a href="#">
+                  <img src="./assets/img/mini1/instra.png" class="img-logo-social" alt="">
+                  </a>
+                  <a href="#">
+                  <img src="./assets/img/mini1/linkin.png" class="img-logo-social" alt="">
+                  </a>
+                  <a href="#">
+                  <img src="./assets/img/mini1/yt.png" class="img-logo-social" alt="">
+                  </a>
+                  <div id="copyright">Copyright © 2022 KodeGo BoothCamp
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="div-footer">
+            <div>Home</div>
+            <div>Mission-Vision</div>
+            <div>Service</div>
+            <div>Our Doctors</div>
+            <div>ContactUs</div>
+          </div>
+                   
+          <div class="div-footer">
+            <div> 
+                <a href="https://www.officialgazette.gov.ph">
+                <img src="./assets/img/mini1/phil.png" class="img-logo-partner" alt="">
+                </a>
+                <a href="https://southcotabato.gov.ph">
+                <img src="./assets/img/mini1/socot.png" class="img-logo-partner" alt="">
+                </a>  
+                <a href="https://doh.gov.ph">
+                <img src="./assets/img/mini1/doh.png" class="img-logo-partner" alt="">
+                </a> 
+                <a href="https://www.who.int">
+                <img src="./assets/img/mini1/who.png" class="img-logo-partner" alt="">
+              </a>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>    <!--endfooter-->
+    <br>
+  </main>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,137 @@
+a:link {
+    text-decoration: none;
+}
+
+#img-logo{
+    width: 200px;
+    float: left;
+}
+
+#img-callus{
+    width: 200px;
+    float: right;
+}
+
+#header-container {
+    background-image: url(../img/mini1/headerbgcolor.png);
+    background-size: cover;
+}
+
+.title-news {
+    color: white;
+    text-align: center;
+    background-image: url(../img/mini1/headerbgcolor.png);
+    padding: 5px;
+    margin: 5px;
+}
+
+#giveus {
+    color: rgb(73, 12, 55);
+    font: sans-serif;
+    padding-top: 5px;
+    text-align: left;
+    background-color: lightgrey;
+ }
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.img-news-content {
+    width: 26rem;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+
+  .div-news-content {
+    width: 30rem;
+    padding: 5px;
+    text-align: left;
+  }
+
+  h4 {
+    padding: 5px;
+    color:blue;
+    padding: 5px;
+    text-decoration: underline green;
+  }
+
+  p {
+      padding: 5px;
+      color: rgb(36, 35, 37);
+  }
+
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1900px;
+  }
+    .container-footer-flex {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-image: url(../img/mini1/headerbgcolor.png);
+    max-width: 1900px;
+  }
+
+  .div-footer {
+    width: 30rem;
+    padding: 5px;
+  }
+
+  #img-logo-footer {
+      width: 160px; 
+  }
+  
+  .img-logo-social {
+      width: 25px;
+  }
+
+  .img-logo-partner {
+      width: 90px;
+  }
+
+  #copyright {
+      color: teal;
+      padding: 5px;
+      font-size: 12px;
+  }
+
+  @media(min-width: 675px) {        /* Media here*/
+  
+    .container-flex {
+      flex-direction: row;
+    }
+  
+    .container-footer-flex {
+        flex-direction: row;
+    }
+
+
+    }
+
+
+
+/*Allergy and immunology
+Anesthesiology
+Dermatology
+Diagnostic radiology
+Emergency medicine
+Family medicine
+Internal medicine
+Medical genetics
+Neurology
+Nuclear medicine
+Obstetrics and gynecology
+Ophthalmology
+Pathology
+Pediatrics
+Physical medicine and rehabilitation
+Preventive medicine
+Psychiatry
+Radiation oncology
+Surgery
+Urology	*/
