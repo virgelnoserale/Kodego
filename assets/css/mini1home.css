@@ -133,8 +133,31 @@ h2 {
 #img-corona {
   width: 100%;
 }
+/*end corona news*/
 
+/*start doctor news*/
+#img-doctor {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  
+}
 
+.img-doctors-content {
+  width: 100%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+
+}
+.container-doctor {
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+max-width: 1900px;
+
+}
   
 /* Start Media*/
   @media(min-width: 675px) {        
@@ -146,7 +169,12 @@ h2 {
     .container-footer-flex {
         flex-direction: row;
     }
+
+    .container-doctor {
+      flex-direction: row;
+}
   }
+  
 /* End Media*/
 
 
