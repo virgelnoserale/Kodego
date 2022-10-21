@@ -39,6 +39,9 @@
                     <a class="nav-link" href="mission_vision.html"><i class="fa-solid fa-heart"></i>&nbsp;Mission-Vision</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="mini1pages/aboutus.html"><i class="fa-solid fa-archway"></i>&nbsp;About Us</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="sevices.html"><i class="fa-solid fa-people-arrows"></i>&nbsp;Services</a>
                   </li>
                   <li class="nav-item">
@@ -51,13 +54,21 @@
                     <a class="nav-link" href="patient_login.html"><i class="fa-solid fa-user"></i>&nbsp;Login to patient account</a>
                   </li>
                 </ul>
-              </div>
+              </div> 
             </div>
           </nav>
         </div>
       </div>
     </div>                                          <!--endnav-->
-    
+    <div class="container" > <!--banner-->
+      <div class="row">
+        <div class="col">
+          <div id="div-img-doctor">
+            <img src="../assets/img/mini1/doctor.png" id="img-contact" alt="">
+          </div>
+        </div>
+      </div>
+    </div>  <!--endbanner-->
     <div class="container-fluid" id="giveus">       <!--Find a Doctor-->
       <div class="row">
         <div class="col-2"></div>
@@ -94,109 +105,160 @@
           </select>
         </div>
         <div class="col-1">
-          <button type="button" class="btn btn-primary">Search</button>
+          <a href="./mini1pages/doctors.html">
+          <button type="button" class="btn btn-primary" >Search</button>
+        </a>
         </div>
         <div class="col-1"></div>
       </div>
     </div>    <!--endsearchnameofdoctor-->
-
-    
-    <div class="container">
+    <div class="container"> <!--title--> 
       <div class="row">
-        <img src="../assets/img/mini1/doctor.png" id="img-doctor" alt="">
-      </div>
-    </div>
-    <div class="container">
+        <div class="col">
+          <div>
+            <h2 class="title-news">OUR DOCTORS</h2> 
+          </div>
+        </div>
+      </div>               
+    </div>  <!--endtitle-->
+    <div class="container"> <!--our doctors-->
       <div class="row">
-        <h3>OUR DOCTORS</h3>
-      </div>
-    </div>
+        <div class="col">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+             
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <img src="../assets/img/mini1/doc1.png" alt="" class="img-doctors-info"> <h5>&nbsp; Dr. Sheena Marie Bofill, MD </h3>
+                  <small id="emailHelp" class="form-text text-muted">&nbsp; Please click to see her's info. and schedules.</small>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                 <strong><article>Department: Surgery</article> 
+                  <article>Specialization: Surgery - GENERAL SURGERY</article> </strong>
+                  <br>
+                 <strong><article>Schedule for Face to Face</article> </strong>
+                  <ul>
+                  <li>Tuesday 1:00pm-3:00pm </li>
+                  <li>Thursday 1:00pm-3:00pm </li>
+                  <li>Saturday 12:00pm-2:00pm </li>
+                  </ul>
+                  <strong><article>Schedule for E-Consult </article> </strong>
+                  <ul>
+                  <li>Sunday 1:00pm-3:00pm </li>
+                  <li>Tuesday 3:00pm-5:00pm</li>
+                  <li>Friday 3:00pm-5:00pm</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><img src="../assets/img/mini1/doc2.png" alt="" class="img-doctors-info"> <h5>&nbsp; Dr. Xynah Shannique Ember Noserale, MD</h5><small id="emailHelp" class="form-text text-muted">&nbsp; Please click to see her's info. and schedules.</small>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <strong><article>Department: Surgery</article> 
+                    <article>Specialization: Surgery - GENERAL SURGERY</article> </strong>
+                    <br>
+                   <strong><article>Schedule for Face to Face</article> </strong>
+                    <ul>
+                    <li>Tuesday 1:00pm-3:00pm </li>
+                    <li>Thursday 1:00pm-3:00pm </li>
+                    <li>Saturday 12:00pm-2:00pm </li>
+                    </ul>
+                    <strong><article>Schedule for E-Consult </article> </strong>
+                    <ul>
+                    <li>Sunday 1:00pm-3:00pm </li>
+                    <li>Tuesday 3:00pm-5:00pm</li>
+                    <li>Friday 3:00pm-5:00pm</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><img src="../assets/img/mini1/doc3.png" alt="" class="img-doctors-info"> <h5>&nbsp; Dr. Virgel B. Noserale, MD </h5> <small id="emailHelp" class="form-text text-muted">&nbsp; Please click to see his's info. and schedules.</small>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">  <strong><article>Department: Surgery</article> 
+                  <article>Specialization: Surgery - GENERAL SURGERY</article> </strong>
+                  <br>
+                 <strong><article>Schedule for Face to Face</article> </strong>
+                  <ul>
+                  <li>Tuesday 1:00pm-3:00pm </li>
+                  <li>Thursday 1:00pm-3:00pm </li>
+                  <li>Saturday 12:00pm-2:00pm </li>
+                  </ul>
+                  <strong><article>Schedule for E-Consult </article> </strong>
+                  <ul>
+                  <li>Sunday 1:00pm-3:00pm </li>
+                  <li>Tuesday 3:00pm-5:00pm</li>
+                  <li>Friday 3:00pm-5:00pm</li>
+                  </ul>/div>
+              </div>
+             </div>
+          
+             <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour"><img src="../assets/img/mini1/doc4.png" alt="" class="img-doctors-info"> <h5>&nbsp; Dr. Ethel Bofill Burak, MD </h5> <small id="emailHelp" class="form-text text-muted">&nbsp; Please click to see his's info. and schedules.</small>
+                </button>
+              </h2>
+              <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">  <strong><article>Department: Surgery</article> 
+                  <article>Specialization: Surgery - GENERAL SURGERY</article> </strong>
+                  <br>
+                 <strong><article>Schedule for Face to Face</article> </strong>
+                  <ul>
+                  <li>Tuesday 1:00pm-3:00pm </li>
+                  <li>Thursday 1:00pm-3:00pm </li>
+                  <li>Saturday 12:00pm-2:00pm </li>
+                  </ul>
+                  <strong><article>Schedule for E-Consult </article> </strong>
+                  <ul>
+                  <li>Sunday 1:00pm-3:00pm </li>
+                  <li>Tuesday 3:00pm-5:00pm</li>
+                  <li>Friday 3:00pm-5:00pm</li>
+                  </ul>/div>
+              </div>
+             </div> 
 
-    <br>
-    <div class="container-doctor">
-    <div class="container" >
-      <div class="row my-2 " >
-        <div class="col-3 p-2">
-          <img src="../assets/img/mini1/doc1.png" class="img-doctors-content" alt="">
-          <h4>Dr. Sheena Marie Bofill MD</h4>
-            <section>Department    : Surgery </section> 
-            <section>Specialization: Surgery </section>
-            <br>  
-            <section><strong>Schedule for Face to Face </strong> </section> 
-            <ul>  
-              <li>Tuesday 1:00pm-3:00pm </li>
-              <li>Thursday 1:00pm-3:00pm </li>
-              <li>Saturday 12:00pm-2:00pm </li>
-            </ul>
-            <section><strong>Schedule for E-Consult </strong> </section> 
-            <ul>
-              <li>Sunday 1:00pm-3:00pm </li>
-              <li>Tuesday 3:00pm-5:00pm </li>
-              <li>Friday 3:00pm-5:00pm </li>
-            </ul>  
+             <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive"><img src="../assets/img/mini1/doc5.png" alt="" class="img-doctors-info"> <h5>&nbsp; Dr. Dave Burak, MD </h5> <small id="emailHelp" class="form-text text-muted">&nbsp; Please click to see his's info. and schedules.</small>
+                </button>
+              </h2>
+              <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">  <strong><article>Department: Surgery</article> 
+                  <article>Specialization: Surgery - GENERAL SURGERY</article> </strong>
+                  <br>
+                 <strong><article>Schedule for Face to Face</article> </strong>
+                  <ul>
+                  <li>Tuesday 1:00pm-3:00pm </li>
+                  <li>Thursday 1:00pm-3:00pm </li>
+                  <li>Saturday 12:00pm-2:00pm </li>
+                  </ul>
+                  <strong><article>Schedule for E-Consult </article> </strong>
+                  <ul>
+                  <li>Sunday 1:00pm-3:00pm </li>
+                  <li>Tuesday 3:00pm-5:00pm</li>
+                  <li>Friday 3:00pm-5:00pm</li>
+                  </ul>/div>
+              </div>
+             </div> 
+            
+          
+          
+          
+         </div>
         </div>
-        <div class="col-3 p-2">
-          <img src="../assets/img/mini1/doc1.png" class="img-doctors-content" alt="">
-          <h4>Dr. Sheena Marie Bofill MD</h4>
-            <section>Department    : Surgery </section> 
-            <section>Specialization: Surgery </section>
-            <br>  
-            <section><strong>Schedule for Face to Face </strong> </section> 
-            <ul>  
-              <li>Tuesday 1:00pm-3:00pm </li>
-              <li>Thursday 1:00pm-3:00pm </li>
-              <li>Saturday 12:00pm-2:00pm </li>
-            </ul>
-            <section><strong>Schedule for E-Consult </strong> </section> 
-            <ul>
-              <li>Sunday 1:00pm-3:00pm </li>
-              <li>Tuesday 3:00pm-5:00pm </li>
-              <li>Friday 3:00pm-5:00pm </li>
-            </ul>  
         </div>
-        <div class="col-3 p-2">
-          <img src="../assets/img/mini1/doc1.png" class="img-doctors-content" alt="">
-          <h4>Dr. Sheena Marie Bofill MD</h4>
-            <section>Department    : Surgery </section> 
-            <section>Specialization: Surgery </section>
-            <br>  
-            <section><strong>Schedule for Face to Face </strong> </section> 
-            <ul>  
-              <li>Tuesday 1:00pm-3:00pm </li>
-              <li>Thursday 1:00pm-3:00pm </li>
-              <li>Saturday 12:00pm-2:00pm </li>
-            </ul>
-            <section><strong>Schedule for E-Consult </strong> </section> 
-            <ul>
-              <li>Sunday 1:00pm-3:00pm </li>
-              <li>Tuesday 3:00pm-5:00pm </li>
-              <li>Friday 3:00pm-5:00pm </li>
-            </ul>  
-        </div>
-        <div class="col-3 p-2">
-          <img src="../assets/img/mini1/doc1.png" class="img-doctors-content" alt="">
-          <h4>Dr. Sheena Marie Bofill MD</h4>
-            <section>Department    : Surgery </section> 
-            <section>Specialization: Surgery </section>
-            <br>  
-            <section><strong>Schedule for Face to Face </strong> </section> 
-            <ul>  
-              <li>Tuesday 1:00pm-3:00pm </li>
-              <li>Thursday 1:00pm-3:00pm </li>
-              <li>Saturday 12:00pm-2:00pm </li>
-            </ul>
-            <section><strong>Schedule for E-Consult </strong> </section> 
-            <ul>
-              <li>Sunday 1:00pm-3:00pm </li>
-              <li>Tuesday 3:00pm-5:00pm </li>
-              <li>Friday 3:00pm-5:00pm </li>
-            </ul>  
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <hr>
+     </div> 
+     </div>
+    </div><!--end our doctors-->
+    <hr>
     <div class="container">      <!--Support link-->
       <div class="row">
        <div class="col p-3" >
@@ -207,7 +269,8 @@
           </div>
        </div>
       </div>
-    </div>    <!--End Support link-->    <br>
+    </div>    <!--End Support link-->
+    <br>
     <div class="container footer-flex text-light">   <!--footer here-->
       <div class="container"></div>
       <div>

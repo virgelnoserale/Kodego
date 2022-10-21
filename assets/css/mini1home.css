@@ -111,7 +111,12 @@ h2 {
   /* Start contact*/                       
   #img-contact {
     width: 100%;
-    }
+    padding:5px;
+  }
+
+  #contact-row {
+    background: url(../img/mini1/headerbgcolor.png);
+  }
 
   .contact-form-only {
     padding: 10px;
@@ -136,29 +141,65 @@ h2 {
 /*end corona news*/
 
 /*start doctor news*/
-#img-doctor {
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  
+
+.img-doctors-info {
+  width: 100px;
+  height: 100px; 
+  padding: 0;
+}
+#div-img-doctor {
+  margin-bottom: 5px;
+}
+/*end doctor news*/
+
+/* services*/
+#service-container {
+  background: url(../img/mini1/headerbgcolor.png);
+  background-size: cover;
 }
 
-.img-doctors-content {
-  width: 100%;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-
+.li-service-content {
+  background: url(../img/mini1/services-bg-content.png);
+  background-size: cover;
 }
-.container-doctor {
-display: flex;
-flex-direction: column;
-margin: 0 auto;
-max-width: 1900px;
+/* endservices*/
 
+#about-content{
+  background: url(../img/mini1/aboutcontentbg.png);
+  background-size: cover;
+} 
+
+/* login */
+.title-login{
+  text-align: center;
 }
-  
+
+form {   
+   border: 10px solid white;
+   margin: 20px;   
+}   
+
+  .input-login[type=text], .input-login[type=password] {   
+   width: 100%;   
+   margin: 8px 0;  
+   padding: 12px 2px;   
+   display: inline-block;   
+   border: 1px solid green;   
+   box-sizing: border-box;   
+}  
+   
+
+#login-container {   
+   padding: 25px;   
+   background-color: lightblue;  
+}   
+
+
+/* endlogin */
+
+
+
+
 /* Start Media*/
   @media(min-width: 675px) {        
   
@@ -170,9 +211,10 @@ max-width: 1900px;
         flex-direction: row;
     }
 
-    .container-doctor {
+    ,container-doctor-info-flex {
       flex-direction: row;
-}
+    }
+ 
   }
   
 /* End Media*/
