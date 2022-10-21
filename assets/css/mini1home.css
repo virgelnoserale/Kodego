@@ -41,17 +41,19 @@ h2 {
 }
 
 .img-news-content {
-    width: 26rem;
+    width: 100%;
+    padding: auto;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
   }
 
   .div-news-content {
-    width: 30rem;
-    padding: 5px;
+    width: 100%;
+    padding: 10px;
     text-align: left;
+    color: azure;
+    
   }
-
   h4 {
     padding: 5px;
     color:blue;
@@ -60,7 +62,7 @@ h2 {
   }
 
   p {
-      padding: 5px;
+      padding: px;
       color: rgb(36, 35, 37);
   }
 
@@ -111,17 +113,24 @@ h2 {
   /* Start contact*/                       
   #img-contact {
     width: 100%;
-    padding:5px;
+    padding: 5px;
   }
 
-  #contact-row {
+  /*#contact-row {
     background: url(../img/mini1/headerbgcolor.png);
+    background-size: cover;
+    
   }
-
+*/
   .contact-form-only {
-    padding: 10px;
+    padding: 20px;
+    border-radius: 2%;
     background: url(../img/mini1/bgbgbg1.png);
-  }
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
 
      #btn-summit {
       text-align: right;
@@ -174,28 +183,41 @@ h2 {
   text-align: center;
 }
 
-form {   
+form {
    border: 10px solid white;
-   margin: 20px;   
+   margin: 20px;
 }   
 
   .input-login[type=text], .input-login[type=password] {   
    width: 100%;   
    margin: 8px 0;  
-   padding: 12px 2px;   
+   padding: 2px 2px;   
    display: inline-block;   
    border: 1px solid green;   
    box-sizing: border-box;   
 }  
    
-
-#login-container {   
-   padding: 25px;   
-   background-color: lightblue;  
-}   
-
-
+#login-container {
+   padding: 25px;
+   border-radius: 5%;
+   background-color: lightblue;
+   -webkit-border-radius: 5%;
+   -moz-border-radius: 5%;
+   -ms-border-radius: 5%;
+   -o-border-radius: 5%;
+  
+}
+   .btn-submit {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+   
 /* endlogin */
+
+/*main*/
 
 
 
