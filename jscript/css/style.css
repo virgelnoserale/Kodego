@@ -1,0 +1,41 @@
+#div-header{
+    color: brown;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#container-contents{
+    background: rgb(202, 202, 202);
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+#col1-content, #col2-content{
+    height: 70vh;
+    padding: 1rem;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    background: rgb(247, 235, 235);
+    margin: auto;
+}
+#footer{
+    text-align: center;
+    margin-top: 5px;
+}
+#back{
+    text-align: left;
+    font-size: 12px;
+
+}
+#back :hover{
+     color: rgb(255, 255, 255);
+     font-size: 12px;
+     
+}
+
+
+
