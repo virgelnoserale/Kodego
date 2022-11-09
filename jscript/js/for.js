@@ -3,7 +3,7 @@ const grocery =["Sugar", "Salt", "Rice", "Toyo", "Egg", "Vinegar", "Chicken", "P
 
 for (let i = 0; i < grocery.length; i++) {
   let groceryLi = document.createElement('li');
-  groceryLi.innerText=grocery[i];
+  groceryLi.innerHTML=grocery[i];
   document.getElementById("list-groceries").appendChild(groceryLi);
 }
 
