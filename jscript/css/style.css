@@ -36,6 +36,59 @@
      font-size: 12px;
      
 }
+/* odd even */
+#btnsubmit{
+    background-color: rgb(120, 141, 209);
+    color: rgb(38, 29, 117);
+    font-weight: bold;
+    border-radius: .5rem;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
 
+#div-input{
+    padding: 10px;
+    border: 1px blueviolet solid;
+    background: rgb(218, 218, 218);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 
+#title-oddeven{
+    color: black;
+    padding: 15px;
+    border: 1px white solid;
+    background: rgb(180, 165, 165);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
+#div-input h5{
+    color: green;
+}
+
+#result{
+    font-weight: bolder;
+    color: brown;
+}
+
+#result-section{
+    color: blue;
+}
+
+#enter-num{
+    background-color: rgb(103, 212, 212);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

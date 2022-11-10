@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function ODD or EVEN</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="container-fluid bg-black p-3" id="div-header">
+        <h1>ODD or EVEN?</h1>
+        <h5>Create a HTML Page in which the user can enter a value and from that value, determine if the entered number is even or an odd number.</h5>
+        <p id="back"><a href="../index.html">&lt;&lt; Back</a></p>
+        </div>
+            <div class="container p-3" id="container-contents">
+                 <div class="row">
+                     <div class="col-md-5 text-bg-primary" id="col1-content">
+                        <h3>OUTPUT</h3> 
+                        <br>
+                        <div id=title-oddeven>
+                            <h5>ODD or EVEN?</h5>
+                        <div id="div-input">
+                            <h5>Enter a number.</h5>
+                            <input type="text" id="enter-num" placeholder= ""> 
+                    <button id="btnsubmit" onclick="oddEven()">Submit</button>
+                    <br>
+                    <br>
+                    <section id="result-section">The number you entered is: <span id="result"></span>
+                    </section>
+                    <br>
+                     </div>
+             </div>
+      </div>
+            
+       <!--End of output-->
+            
+            <div class="col-md-6 text-bg-success" id="col2-content"> 
+                <h3>JAVASCRIPT CODES</h3>
+                <br>
+                <pre>&lt;script&gt; 
+    let num1 = " ";
+    let result1 = " ";
+    function oddEven(){
+    num1 = parseInt(document.getElementById("enter-num").value);
+    if(num1){
+        result1 = document.getElementById("result-section");
+    if(num1 % 2==0)
+        document.getElementById("result").innerHTML = 
+        "[" + num1 + "] - " + " Even Number";
+        else
+        document.getElementById("result").innerHTML = 
+        "[" + num1 + "] - " + " Odd Number";
+        }
+    }
+&lt;/script&gt;
+
+console.log("---------------------------------------");
+console.log("Connection testing");
+console.log("---------------------------------------");
+                </pre>
+            </div>
+        </div>
+    </div>
+    
+ <div class="container-fluid text-bg-dark p-4" id="footer"  >
+    <small>Virgel B. Noserale Batch WD19p @KodeGo2022 </small>
+    
+ </div>
+ <div class="container">
+
+ </div>
+ 
+<script src="./js/oddeven.js"></>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
