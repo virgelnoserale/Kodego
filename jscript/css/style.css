@@ -75,7 +75,7 @@
     color: green;
 }
 
-#result{
+#result, #result1{
     font-weight: bolder;
     color: brown;
 }
@@ -84,7 +84,7 @@
     color: blue;
 }
 
-#enter-num{
+.enter-num{
     background-color: rgb(103, 212, 212);
     border-radius: 10px;
     -webkit-border-radius: 10px;
