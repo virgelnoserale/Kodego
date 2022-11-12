@@ -12,7 +12,7 @@
     -o-border-radius: 2%;
 }
 #col1-content, #col2-content{
-    height: 70vh;
+    height: 100vh;
     padding: 1rem;
     border-radius: 2%;
     -webkit-border-radius: 2%;
