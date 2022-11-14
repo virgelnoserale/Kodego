@@ -23,6 +23,11 @@ function week(){
         case "Sunday":
             document.getElementById('result').innerHTML = "Will You Be Staying After Sunday by Peppermint Rainbow"
             break;
+        
+        default:
+        document.getElementById('result').innerHTML = "Just type a Monday to Sunday only, HAVE A NICE DAY!"
+            break;
+
         }
 }
 
